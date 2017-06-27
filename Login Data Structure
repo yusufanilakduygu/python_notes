@@ -1,0 +1,8 @@
+# logins data structre
+login1={'username':'system','password':'oracle'}
+login2={'username':'scott','password':'tiger'}
+logins=[login1,login2]
+for x in logins[:]:
+    print(x['username'],x['password'])
+# print(logins[0]['username'],logins[0]['password'])
+# print(logins[1]['username'],logins[1]['password'])
